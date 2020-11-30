@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* TOP画面のbody */
+body {
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
+}
+
+
+.central1{
+	margin-top: 10px;
+	width: 1110px;
+	height: 566px;
+}
+
+h2{
+	display: inline;
+}
+
+/* TOP画面の順位表テーブル */
+.tb1 {
+	width: 60%;
+	margin: auto;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.tb1 a:hover{
+	background: #c0c0c0;
+}
+
+.teamName {
+	color: #ffffff;
+}
+
+.teamName a:hover{
+	background: #c0c0c0;
+}

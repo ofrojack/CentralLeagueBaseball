@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* 「*」は、すべての要素にスタイルを適用する全称セレクタ */
+* {
+	margin : auto;
+	padding: 0px;
+	/*font-size: 96%;*/
+}
+
+.leftmenu {
+/*	background-color:#c0c0c0;*/
+	background: linear-gradient(#ffffff,#808080);
+	float: left;
+	clear: none;
+	width: 210px;
+	height: 1430px;
+	text-align: center;
+	font-size: 100%;
+	border-top-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+/*	margin: auto; */
+/*	padding: 0px; */
+	font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+p, .main ul, .leftmenu ul {
+	line-height: 160%;
+	list-style-position: inside;
+}
+.subinfo {
+	font-size: 100%;
+	text-align: center;
+	font-weight: bold;
+	width: 210px;
+	color: #ffffff;
+	background-color: #808080;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.subinfo li {
+	font-size: 100%;
+	color: #c0c0c0;
+	list-style-type: none;
+	width: 210px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	list-style-position: inside;
+}
+.subinfo li a {
+	text-decoration: none;
+	border-right-width: 10px;
+	border-bottom-width: 1px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #808080;
+	border-left-color: #808080;
+	border-right-color: #808080;
+	background-color: #c0c0c0;
+	width: 210px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+	color: #ffffff;
+}
+.subinfo li a:hover {
+	color: #FFC;
+	background-color: #808080;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #c0c0c0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-right-width: 10px;
+	border-right-style: solid;
+	border-right-color: #c0c0c0;
+	border-bottom-color: #808080;
+}

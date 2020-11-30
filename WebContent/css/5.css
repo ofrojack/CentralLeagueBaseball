@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+	color: #ffffff;
+	background-color: #ff0000;
+	text-align: center;
+}
+
+h2{
+	margin: 10px 0px;
+	font-size: 40px
+}
+
+h3{
+	margin: 10px 0px;
+}
+
+.photo{
+	margin:auto;
+	width: 50%;
+	height: 50%;
+}
+
+img.player{
+	width: 150px;
+	height: 160px;
+}
+
+/*
+.goods{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}*/
+
+
+/*h2{
+	text-align: center;
+}*/
+
+/* menuレイアウト */
+.menu li{
+	list-style-type: none;
+	display: inline-block;
+	width: 140px;
+	margin: 0 5px;
+}
+
+.menu a{
+	display: block;
+	padding: 5px;
+	background: #ffffff;
+	border-radius: 8px;
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	background: #ff0000;
+	color: #ffffff;
+}
+
+/* TOP画面の順位表テーブル */
+.tb1 {
+	width: 70%;
+	margin: auto;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+	text-align: center;
+	clear: both;
+}
+.tb1 a:hover{
+	background: #c0c0c0;
+}
+
+.tb2{
+	margin: auto;
+	width: 30%;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+}
+.tb2 a:hover{
+	background: #c0c0c0;
+}
+
+.tb3{
+	margin: auto;
+	width: 170px;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+}
+
+
+.floatleft{
+	width: 60px;
+	height: 60px;
+}
+
+.record{
+	width: 75%;
+}
+
+.playerlist{
+	float:left;
+	margin-left: 80px;
+	background-color: #ff0000;
+}
+.playerlist a{
+	color: #ffffff;
+}
+footer{
+	clear:both;
+}
+

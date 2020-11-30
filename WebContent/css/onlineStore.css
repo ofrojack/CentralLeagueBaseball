@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* TOP画面のbody */
+body {
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
+}
+
+/* TOP画面のh1 */
+h1 {
+	width: 500px;
+	margin: auto;
+	border: 15px solid #ffffff;
+	color: #ff0000;
+	background-color: #000000;
+}
+
+h2 {
+
+}
+
+/* MainMenuListのレイアウト */
+.mainMenu li{
+	list-style-type: none;
+}
+
+/* BackMenuListのレイアウト */
+.backMenu li{
+	list-style-type: none;
+}
+
+/* ログイン画面のフォームテーブル */
+.loginTable{
+	width: 30%;
+	margin: 10px auto;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+	text-align: center;
+};

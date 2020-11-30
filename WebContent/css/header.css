@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+/*	background-color: #a8a8a8;*/
+	background: radial-gradient(closest-side ,#ffffff,#808080);
+	height: 100px;
+	width: 100%;
+/*	position: fixed; */
+}
+
+
+.centralLogo{
+	width:103px;
+	float:left;
+	background-color: #c0c0c0;
+}
+
+/* TOP画面のh1 */
+h1 {
+	float: left;
+/*	width: 500px; */
+	margin: auto;
+	border: 22px solid #ffffff;
+	color: #ffffff;
+	background-color: #c0c0c0;
+	border-radius: 8px;
+	font-family: Pacifico;
+}
+
+.account{
+	font-size: 15px;
+	float: right;
+	background-color: #c0c0c0;
+/*	margin: 0; */
+	padding: 0;
+}

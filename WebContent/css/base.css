@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* TOP画面のbody */
+body {
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
+}
+
+/* TOP画面のセ・リーグ写真 */
+.central1{
+	margin-top: 10px;
+	width: 1110px;
+	height: 566px;
+}
+
+h2{
+	display: inline;
+}
+
+/* ログイン画面のフォームテーブル */
+.loginTable{
+	width: 30%;
+	margin: 10px auto;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+/* TOP画面の順位表テーブル */
+.tb1 {
+	width: 60%;
+	margin: auto;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+	text-align: center;
+}
+.tb1 a:hover{
+	background: #c0c0c0;
+}
+
+/* それ以外のテーブル */
+.tb2{
+	margin: auto;
+	width: 30%;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+}
+.tb2 a:hover{
+	background: #c0c0c0;
+}
+
+/* TeamDataServletのテーブルの<a>要素 */
+.teamName {
+	color: #ffffff;
+}
+.teamName a:hover{
+	background: #c0c0c0;
+}
+
+.updateForm{
+	width: 50%;
+	color: #ffff80;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+}
+
+.searchPlayertb{
+	width: 50%;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+}
+
+.searchResult{
+	width: 80%;
+	color: #ffff80;
+	border: 5px solid #ffffff;
+	border-collapse: collapse;
+}
